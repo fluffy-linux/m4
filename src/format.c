@@ -331,7 +331,7 @@ expand_format (struct obstack *obs, idx_t argc, token_data **argv)
         }
 
       /* Our constructed format string in fstart is safe.  */
-#if _GL_GNUC_PREREQ (4, 3) || defined __clang__
+#if _GL_GNUC_PREREQ (4, 6) || defined __clang__
 # pragma GCC diagnostic push
 # pragma GCC diagnostic ignored "-Wformat-nonliteral"
 #endif
@@ -395,7 +395,7 @@ expand_format (struct obstack *obs, idx_t argc, token_data **argv)
         default:
           abort ();
         }
-#if _GL_GNUC_PREREQ (4, 3) || defined __clang__
+#if _GL_GNUC_PREREQ (4, 6) || defined __clang__
 # pragma GCC diagnostic pop
 #endif
 
