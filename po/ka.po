@@ -1,0 +1,1 @@
+../translationproject/PO-files/ka/m4-1.4.18d.ka.po

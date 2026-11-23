@@ -1,0 +1,1 @@
+../translationproject/PO-files/pl/m4-1.4.19.60.pl.po
